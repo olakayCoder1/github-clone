@@ -16,7 +16,7 @@ function HeaderLogoSearch() {
                     <div class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none">
                         <BsArrowUpSquare className=' w-4 h-4 text-gray-50 cursor-pointer'/>
                     </div>
-                    <input type="search" id="default-search" class="block p-1 pl-3 min-w-[300px] text-sm text-gray-900 bg-black rounded-md  placeholder-gray-400 outline-none" placeholder="Search or jump..." required />
+                    <input type="search" id="default-search" class="block p-1 pl-3 min-w-[300px] text-sm text-gray-400 bg-black rounded-md  placeholder-gray-400 outline-none" placeholder="Search or jump..." required />
                 </div>
             </form>
             <ul className=' flex gap-3 items-center text-white text-sm font-semibold'>

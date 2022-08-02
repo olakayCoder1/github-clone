@@ -6,7 +6,7 @@ import MainContent from './MainContent';
 
 function App() {
   return (
-    <div className="h-screen bg-black">
+    <div className="bg-[#030312] ">
       <Header />
       <HeaderTab />
       <MainContent />
