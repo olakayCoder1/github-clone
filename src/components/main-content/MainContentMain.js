@@ -1,8 +1,6 @@
 import React from 'react'
 import MainContentMainRepo from './MainContentMainRepo'
 import ContributionActivity from './ContributionActivity'
-import {TbBookUpload} from 'react-icons/tb'
-import {BsArrowsCollapse} from 'react-icons/bs'
 
 function MainContentMain() {
   return (
