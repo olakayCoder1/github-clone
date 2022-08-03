@@ -38,6 +38,9 @@ function MainContentAbout() {
                 <h3 className=' text-base font-normal text-gray-100'>Python(Django) backend developer</h3>
                 <button type="button" class="py-1.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-50 focus:outline-none bg-gray-800 rounded-lg border border-gray-600 hover:bg-gray-700 hover:text-gray-50 hover:border-gray-500 focus:z-10 focus:ring-4 focus:ring-gray-200  ">Edit profile</button>
 
+                <div className='flex sm:hidden text-sm font-normal text-gray-500'>
+                    <HiOutlineMail className=' w-4 h-4 text-gray-500'/> <span className='ml-2 text-gray-100'>programmerolakay@gmail.com</span>
+                </div>
                 <div className=' w-full text-gray-500 text-sm font-normal'>
                     <p className=' w-full flex items-center '>
                         <TbUsers className=' w-4 h-4 text-gray-500'/>

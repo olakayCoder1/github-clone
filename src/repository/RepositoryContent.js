@@ -1,7 +1,6 @@
 import React from 'react'
-import {BiGitRepoForked} from 'react-icons/bi'
 import {IoMdStarOutline} from 'react-icons/io'
-import {BsArrowUpSquare,BsFillCaretDownFill } from 'react-icons/bs'
+import {BsFillCaretDownFill } from 'react-icons/bs'
 
 function RepositoryContent() {
   return (
@@ -23,13 +22,13 @@ function RepositoryContent() {
         <div className=' flex flex-col gap-4 items-end'>
             <div className='w-fit flex items-center   text-xs font-semibold text-gray-300  bg-gray-800 rounded-md border border-gray-700 cursor-pointer '>
                 <div className=' flex py-1.5 px-2'>
-                    <span className='ml-2'> <IoMdStarOutline className=' ml-0.5 text-xs' /></span>
-                    <span>
+                    <span className='ml-2'> <IoMdStarOutline className=' ml-0.5 w-4 h-4' /></span>
+                    <span className=' ml-1'>
                         Star
                     </span >
                 </div>
                 <p className='border-l-[1px] border-gray-700 py-1.5  px-2'>
-                <BsFillCaretDownFill className=' ml-0.5 text-xs'/>
+                <BsFillCaretDownFill className=' ml-0.5 w-2 h-2'/>
                 </p>
             </div>
             <div className='hidden lg:inline-block w-32 h-[1px] bg-green-800'>

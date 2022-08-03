@@ -5,6 +5,7 @@ import MainContentMain from './components/main-content/MainContentMain'
 import HeaderTab from './HeaderTab'
 import RepositoryContainer from './repository/RepositoryContainer'
 import PackagesContainer from './packagesRep/PackagesContainer'
+import StarsContainer from './stars/StarsContainer'
 
 
 function MainContent() {
@@ -19,6 +20,7 @@ function MainContent() {
           <Route path='' element={<MainContentMain />} />
           <Route path='/repositories' element={<RepositoryContainer />} />
           <Route path='/packages' element={<PackagesContainer />} />
+          <Route path='/stars' element={<StarsContainer />} />
         </Routes>
           
       </div>
