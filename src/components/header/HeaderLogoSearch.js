@@ -10,7 +10,7 @@ function HeaderLogoSearch() {
 
   return (
     <div className=' w-full h-full flex justify-between px-4 md:px-8 items-center'>
-        <p className=' sm:hidden'><GiHamburgerMenu className='w-6 h-6 text-white hover:text-gray-500 cursor-pointer'/></p>
+        <p className=' md:hidden'><GiHamburgerMenu className='w-6 h-6 text-white hover:text-gray-500 cursor-pointer'/></p>
         <div className=' flex gap-3'>
             <BsGithub className=' w-8 h-8 text-white hover:text-gray-500 cursor-pointer'/>
             <form className='hidden md:inline-block border-[1px] border-gray-700 rounded-md bg-black'>   
