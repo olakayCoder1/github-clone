@@ -2,7 +2,6 @@ import React from 'react'
 import {FaRegSmile} from 'react-icons/fa'
 import {TbUsers} from 'react-icons/tb'
 import {BsDot,BsTwitter} from 'react-icons/bs'
-import {GrLocation} from 'react-icons/gr'
 import {HiOutlineMail} from 'react-icons/hi'
 import {MdOutlineLocationOn} from 'react-icons/md'
 
@@ -15,7 +14,7 @@ function MainContentAbout() {
                     <div className=' relative w-20 h-20 sm:w-40 sm:h-40 md:h-52 md:w-52 lg:w-72 lg:h-72 rounded-full'>
                         <img className='w-20 h-20 sm:w-40 sm:h-40 md:h-52 md:w-52 lg:w-72 lg:h-72 rounded-full'
                             src='https://avatars.githubusercontent.com/u/95700260?v=4' />
-                        <p className='hidden sm:inline-block absolute w-fit right-0 sm:bottom-8 md:bottom-12 lg:bottom-16 p-2 rounded-full bg-black text-gray-50'>
+                        <p className='hidden sm:inline-block absolute w-fit right-0 sm:bottom-8 md:bottom-12 lg:bottom-16 p-2 rounded-full bg-black text-gray-50 cursor-pointer'>
                             <FaRegSmile />
                         </p>
                     </div>

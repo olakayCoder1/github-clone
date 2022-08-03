@@ -1,9 +1,7 @@
 import React from 'react'
 import {BsGithub,BsArrowUpSquare ,BsFillCaretDownFill} from 'react-icons/bs'
-import {VscGithub} from 'react-icons/vsc'
 import {VscBellDot} from 'react-icons/vsc'
 import {AiOutlinePlus} from 'react-icons/ai'
-import {BiPlus} from 'react-icons/bi'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 function HeaderLogoSearch() {
@@ -46,7 +44,8 @@ function HeaderLogoSearch() {
                 <BsFillCaretDownFill className=' ml-0.5 text-xs'/>
             </p>
             <p className='hidden md:flex items-center hover:text-gray-500 cursor-pointer'>
-                <BsGithub className=' w-5 h-5 '/>
+                <img className='w-5 h-5 rounded-full'
+                            src='https://avatars.githubusercontent.com/u/95700260?v=4' />
                 <BsFillCaretDownFill className=' ml-0.5 text-xs' />
             </p>
         </div>
