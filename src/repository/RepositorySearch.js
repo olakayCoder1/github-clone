@@ -7,9 +7,9 @@ function RepositorySearch() {
   return (
     <div className='py-4 w-full flex flex-col-reverse sm:flex-row sm:items-start lg:items-center md:gap-12 lg:gap-2 border-b-[1px] border-gray-700'>
         <div className='w-full grow flex flex-col lg:flex-row lg:items-center gap-2'>
-            <form className='grow border-[1px] border-gray-700 rounded-md bg-black'>   
+            <form className='grow border-[1px] border-gray-700 rounded-md  bg-gray-900 sm:bg-black'>   
                 <div>
-                    <input type="search" id="default-search" class="block p-1 pl-3 min-w-[300px] text-sm text-gray-400 bg-black rounded-md  placeholder-gray-400 outline-none" placeholder="Find a repository..." required />
+                    <input type="search" id="default-search" class="w-full block p-1 pl-3 min-w-[300px] text-sm text-gray-400 bg-gray-900 sm:bg-black rounded-md  placeholder-gray-400 outline-none" placeholder="Find a repository..." required />
                 </div>
             </form>
             <div className=' flex gap-1'>

@@ -6,7 +6,7 @@ import {IoMdStarOutline} from 'react-icons/io'
 
 function MainContentMainRepo({repoName,repoType ,mostLang, star , fork}) {
   return (
-    <div className=' w-[98%] h-24 border-[1px] border-gray-800 rounded-lg p-4 flex flex-col justify-between my-2'>
+    <div className='w-full sm:w-[98%] h-24 border-[1px] border-gray-800 rounded-lg p-4 flex flex-col justify-between my-2'>
         <div className=' w-full flex justify-between'>
             <h2 className=' text-sm font-semibold text-blue-400 cursor-pointer hover:underline underline-offset-1'>{repoName}</h2>
             <p className='text-gray-500 text-xs font-medium p-0.5 px-1.5 border border-gray-800 rounded-full'>{repoType}</p>

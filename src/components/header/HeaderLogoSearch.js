@@ -36,7 +36,6 @@ function HeaderLogoSearch() {
                 </li>
             </ul>
         </div>
-
         <div className=' flex gap-3 text-white'>
             <p >
                 <VscBellDot className=' text-lg hover:text-gray-500 cursor-pointer'/>
