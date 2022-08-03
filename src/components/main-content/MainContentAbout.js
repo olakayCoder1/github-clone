@@ -28,7 +28,7 @@ function MainContentAbout() {
             </div>
         </div>
             
-        <div className='flex text-gray-500 w-full border-[1px] border-gray-700 p-1 px-2 rounded-md hover:text-blue-400 cursor-pointer'>
+        <div className='flex sm:hidden text-gray-500 w-full border-[1px] border-gray-700 p-1 px-2 rounded-md hover:text-blue-400 cursor-pointer'>
             <p><FaRegSmile /></p>
             <span className='ml-2 text-sm font-normal'>Set status</span>
         </div>
