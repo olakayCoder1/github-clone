@@ -4,24 +4,26 @@ import {VscGithub} from 'react-icons/vsc'
 import {VscBellDot} from 'react-icons/vsc'
 import {AiOutlinePlus} from 'react-icons/ai'
 import {BiPlus} from 'react-icons/bi'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 function HeaderLogoSearch() {
 
   return (
-    <div className=' w-full h-full flex justify-between px-8 items-center'>
+    <div className=' w-full h-full flex justify-between px-4 md:px-8 items-center'>
+        <p className=' sm:hidden'><GiHamburgerMenu className='w-6 h-6 text-white hover:text-gray-500 cursor-pointer'/></p>
         <div className=' flex gap-3'>
-            <BsGithub className=' w-8 h-8 text-white'/>
-            <form className='border-[1px] border-gray-50 rounded-md bg-black'>   
+            <BsGithub className=' w-8 h-8 text-white hover:text-gray-500 cursor-pointer'/>
+            <form className='hidden md:inline-block border-[1px] border-gray-700 rounded-md bg-black'>   
                 <div class="relative">
                     <div class="flex absolute inset-y-0 right-0 items-center pr-3 pointer-events-none">
-                        <BsArrowUpSquare className=' w-4 h-4 text-gray-50 cursor-pointer'/>
+                        <BsArrowUpSquare className=' w-4 h-4 text-gray-500 cursor-pointer'/>
                     </div>
                     <input type="search" id="default-search" class="block p-1 pl-3 min-w-[300px] text-sm text-gray-400 bg-black rounded-md  placeholder-gray-400 outline-none" placeholder="Search or jump..." required />
                 </div>
             </form>
-            <ul className=' flex gap-3 items-center text-white text-sm font-semibold'>
+            <ul className='hidden md:flex gap-3 items-center text-white text-sm font-semibold'>
                 <li>
-                    Pull requests
+                     Pull<span className=' lg:hidden'>s</span> <span className=' hidden lg:inline-block'>requests</span>
                 </li>
                 <li>
                     Issues
@@ -37,13 +39,13 @@ function HeaderLogoSearch() {
 
         <div className=' flex gap-3 text-white'>
             <p >
-                <VscBellDot className=' text-lg'/>
+                <VscBellDot className=' text-lg hover:text-gray-500 cursor-pointer'/>
             </p>
-            <p className=' flex items-center cursor-pointer'>
+            <p className='hidden md:flex items-center hover:text-gray-500 cursor-pointer'>
                 <AiOutlinePlus />
                 <BsFillCaretDownFill className=' ml-0.5 text-xs'/>
             </p>
-            <p className=' flex items-center cursor-pointer'>
+            <p className='hidden md:flex items-center hover:text-gray-500 cursor-pointer'>
                 <BsGithub className=' w-5 h-5 '/>
                 <BsFillCaretDownFill className=' ml-0.5 text-xs' />
             </p>
