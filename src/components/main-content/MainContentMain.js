@@ -5,10 +5,10 @@ function MainContentMain() {
   return (
     <div className=' w-full h-full'>
         <div className=' w-full text-gray-50 py-3'>
-          <div className=' flex justify-between pt-3 '>
-          <h2 className=' text-base font-normal '>Popular repository</h2>
-          <p className=' text-xs font-normal text-gray-400  cursor-pointer hover:text-blue-600' >Customize your pins</p>
-          </div>
+            <div className=' flex justify-between pt-3 '>
+                <h2 className=' text-base font-normal '>Popular repository</h2>
+                <p className=' text-xs font-normal text-gray-400  cursor-pointer hover:text-blue-600' >Customize your pins</p>
+            </div>
             <div className=' grid grid-cols-2'>
                 <MainContentMainRepo repoName="Altshool-dev" repoType="Public" mostLang='Javascript' star='1' fork='1'/>
                 <MainContentMainRepo repoName="Altshool-dev" repoType="Private" mostLang='Javascript' star='1' fork='1'/>
@@ -51,11 +51,8 @@ function MainContentMain() {
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
     </li>
 </ol>
-
             </div>
-
         </div>
-      
     </div>
   )
 }
