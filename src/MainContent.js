@@ -10,7 +10,7 @@ import StarsContainer from './stars/StarsContainer'
 
 function MainContent() {
   return (
-    <div className='h-full w-full px-4 sm:px-4 md:px-4 md:w-5xl max-w-6xl mx-auto flex flex-col sm:flex-row sm:gap-4 md:gap-6 lg:gap-10'>
+    <div className='h-full w-full px-4 sm:px-4 md:px-4 md:w-5xl max-w-7xl mx-auto flex flex-col sm:flex-row sm:gap-4 md:gap-6 lg:gap-10'>
       <MainContentAbout />
       <div className='sticky top-0 w-full sm:hidden z-50'>
           <HeaderTab />
