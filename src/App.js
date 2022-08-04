@@ -12,7 +12,7 @@ function App() {
     <div className="bg-gray-900 sm:bg-[#090909] ">
       <Router >
       <Header />
-        <div className='sticky top-0 hidden w-full sm:block'>
+        <div className='sticky top-0 hidden w-full sm:block z-50'>
           <HeaderTab />
         </div>
         <Routes>
